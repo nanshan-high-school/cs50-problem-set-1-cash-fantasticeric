@@ -1,0 +1,21 @@
+# cs50-problem-set-1-cash-fantasticeric
+cs50-problem-set-1-cash-fantasticeric created by GitHub Classroom
+#include <iostream>
+using namespace std;
+int main() {
+  int number;
+  int a;
+  int b;
+  int c;
+  int d;
+  cout<<"請輸入多少錢:",number;  
+  cin>>number;
+  a=number/50;
+  cout<<"有"<<a<<"個50元\n";
+  b=number%50/10;
+  cout<<"有"<<b<<"個10元\n";
+  c=number%50%10/5;
+  cout<<"有"<<c<<"個5元\n";
+  d=number%50%10%5;
+  cout<<"有"<<d<<"個1元";
+}
